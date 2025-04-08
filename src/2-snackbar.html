@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <title>Promise Generator</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <form class="form">
-      <label>
-        Delay (ms)
-        <input type="number" name="delay" required />
-      </label>
+      <label for="delay-input">Delay (ms)</label>
+      <input type="number" name="delay" id="delay-input" required />
 
-      <fieldset>
+      <fieldset class="field-input">
         <legend>State</legend>
         <label>
           <input type="radio" name="state" value="fulfilled" required />
